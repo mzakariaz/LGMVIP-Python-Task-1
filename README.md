@@ -18,6 +18,7 @@ This project is my attempt at Task 1 of the Python Developer internship at LetsG
 
 ## **Credits**
 All of the sources used for this project are cited in the links below:
+- https://www.youtube.com/shorts/tvDmruktCT4
 - https://www.canva.com/design/DAFwSGf12q8/6kt94k-9E9RcZ7a5LhYOcQ/view?utm_content=DAFwSGf12q8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#11
 - https://zulko.github.io/moviepy/
 - https://www.geeksforgeeks.org/moviepy-getting-sub-clip/
