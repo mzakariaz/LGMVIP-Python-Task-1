@@ -1,0 +1,2 @@
+# **`main`**
+This folder contains official material to be submitted for evaluation for Task 1 of the Python Developer internship at LetsGrowMore. The core file for this project, binding all of the others, is the `gif_creator.py` file, containing all of the source code necessary to run the GIF creator as a GUI application.

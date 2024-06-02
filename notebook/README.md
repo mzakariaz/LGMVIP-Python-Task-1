@@ -1,0 +1,2 @@
+# **`notebook`**
+This folder contains supplementary material to complement the `main` folder, located above the current directory. The main purpose of this folder is to aid the reader in better understanding how the contents of the `main` folder work. The full details are explained in the `notebook.ipynb` file, located in the current directory.
