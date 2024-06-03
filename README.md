@@ -15,41 +15,8 @@ This project is my attempt at Task 1 of the Python Developer internship at LetsG
 * **<u>Project Submission:</u>** All of the work to be evaluated for this project is found in the `main` folder in the current directory. An explanatory example can also be found in the `notebook` folder in the current directory, in order to aid the reader in better understanding how the contents of the `main` folder work.
 * **<u>Libraries Used:</u>** The following libraries were used for the stated purposes:
   - `os`, for handling redundant files;
-  - `moviepy`, for extracting GIF images from videos;
-  - `PIL`, for image processing, and;
-  - `tkinter`, for creating an interactive GUI application carrying out all of the necessary functions.
-* **<u>Example Code Snippet:</u>** One example of a code snippet used to build this project is given in the code listing below:
-```python
-import os
-from moviepy.editor import *
-
-def gif_from_video(relative_file_path, subclip, width, speed = 1, fps = 15, resulting_file_name = "result"):
-    """
-    Generates a GIF image from a single video clip.
-    
-    Parameters
-    ----------
-    relative_file_path : str
-        A string object representing the relative file path of the video clip
-    subclip : tuple
-        A tuple object representing the requested start and end timestamps of the video clip (in seconds), respectively
-    width : int
-        An int object representing the requested width of the resulting GIF image
-    speed : int/float, optional
-        An int or a float object, representing the requested playback speed of the resulting GIF image. Default : 1
-    fps : int, optional
-        An int object representing The number of frames per second that the resulting GIF image should have. Default : 15
-    resulting_file_name : str, optional
-        A string object representing the resulting GIF image's file name (excluding the ".gif" extension declaration). Default : "result"
-    Returns
-    -------
-    moviepy.video.io.VideoFileClip.VideoFileClip
-        A moviepy VideoFileClip object representing the resulting GIF image
-    """
-    clip = VideoFileClip(relative_file_path).subclip(subclip[0], subclip[1]).resize(width = width).fx(vfx.speedx, speed).write_gif(resulting_file_name + ".gif")
-    result = VideoFileClip(resulting_file_name + ".gif")
-    return result
-```
+  - `tkinter`, for creating an interactive GUI application carrying out all of the necessary functions, and;
+  - `moviepy`, for extracting GIF images from videos.
 
 ## **Credits**
 All of the sources (e.g. videos, images, articles) used to help build this project are cited in the links below:
@@ -63,3 +30,4 @@ All of the sources (e.g. videos, images, articles) used to help build this proje
 - https://www.geeksforgeeks.org/moviepy-saving-video-file-as-gif/
 - https://www.geeksforgeeks.org/moviepy-creating-image-clip/
 - https://www.youtube.com/watch?v=5qOnzF7RsNA
+- https://www.youtube.com/watch?v=vusUfPBsggw
